@@ -290,6 +290,20 @@ h6 {
 	.service-list {
 		gap: 25px;
 	}
+
+	.third-section-container {
+		flex-direction: column;
+		margin: 120px auto 0 auto;
+	}
+
+	.third-section-image {
+		margin: 0 auto 20px auto;
+	}
+
+	.third-container-temp {
+		text-align: center;
+		margin: 0 auto;
+	}
 }
 
 /* TABLET */
@@ -335,6 +349,27 @@ h6 {
 	.our-service-text {
 		width: 481px;
 	}
+
+	.third-section-container {
+		width: 481px;
+	}
+
+	.third-section-image {
+		width: 481px;
+		height: 481px;
+	}
+
+	.third-container-temp {
+		text-align: center;
+	}
+
+	.third-section-title {
+		width: 481px;
+	}
+
+	.third-section-text {
+		width: 481px;
+	}
 }
 
 /* MOBILE */
@@ -370,6 +405,23 @@ h6 {
 		width: 321px;
 		margin: 0 0 25px 0;
 		text-align: center;
+	}
+
+	.third-section-container {
+		width: 321px;
+	}
+
+	.third-section-image {
+		width: 321px;
+		height: 321px;
+	}
+
+	.third-section-title {
+		width: 321px;
+	}
+
+	.third-section-text {
+		width: 321px;
 	}
 }
 
