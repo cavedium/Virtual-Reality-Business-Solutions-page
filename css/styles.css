@@ -158,6 +158,19 @@ body {
 	.nav-menu {
 		margin: 0 50px 0 30px;
 	}
+
+	.hero-container {
+		display: block;
+		flex-direction: column;
+	}
+
+	.hero-title {
+		margin: 50px 0 0 0;
+	}
+
+	.hero-img {
+		margin: 0 0 0 0;
+	}
 }
 
 /* TABLET */
@@ -183,6 +196,22 @@ body {
 		display: none;
 		color: #FFFFFF;
 	}
+
+	.hero-title {
+		width: auto;
+		font-size: 48px;
+	}
+
+	.hero-text {
+		width: auto;
+		height: auto;
+		font-size: 13px;
+	}
+
+	.hero-img {
+		width: 481px;
+		height: 481px;
+	}
 }
 
 /* MOBILE */
@@ -193,6 +222,17 @@ body {
 
 	.nav-btn {
 		margin: 0 40px 0 -40px;
+	}
+
+	.hero-title {
+		font-size: 32px;
+		line-height: 52px;
+		margin: 50px 0 20px 0;
+	}
+
+	.hero-img {
+		width: 321px;
+		height: 321px;
 	}
 }
 
