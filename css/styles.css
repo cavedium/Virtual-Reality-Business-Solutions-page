@@ -222,8 +222,9 @@ h6 {
 	margin: 0 0 35px 0;
 }
 
-/* Third Section */
-.third-section-container {
+/* Third Section AND Fourth Section */
+.third-section-container,
+.fourth-section-container {
 	display: flex;
 	align-items: center;
 	margin: 120px 0 0 0;
@@ -233,14 +234,16 @@ h6 {
 	margin: 0 35px 0 0;
 }
 
-.third-section-title {
+.third-section-title,
+.fourth-section-title {
 	width: 582px;
 	font-size: 42px;
 	font-weight: 700;
 	margin: 0 0 30px 0;
 }
 
-.third-section-text {
+.third-section-text,
+.fourth-section-text {
 	width: 582px;
 	color: #FFFFFF;
 	font-size: 16px;
@@ -249,7 +252,8 @@ h6 {
 	margin: 0 0 50px 0;
 }
 
-.third-section-link {
+.third-section-link,
+.fourth-section-link {
 	width: 100px;
 	height: 30px;
 }
@@ -291,7 +295,8 @@ h6 {
 		gap: 25px;
 	}
 
-	.third-section-container {
+	.third-section-container,
+	.fourth-section-container {
 		flex-direction: column;
 		margin: 120px auto 0 auto;
 	}
@@ -300,7 +305,12 @@ h6 {
 		margin: 0 auto 20px auto;
 	}
 
-	.third-container-temp {
+	.fourth-section-image {
+		margin: 20px auto 0 auto;
+	}
+
+	.third-container-temp,
+	.fourth-container-temp {
 		text-align: center;
 		margin: 0 auto;
 	}
@@ -350,24 +360,29 @@ h6 {
 		width: 481px;
 	}
 
-	.third-section-container {
+	.third-section-container,
+	.fourth-section-container {
 		width: 481px;
 	}
 
-	.third-section-image {
+	.third-section-image,
+	.fourth-section-image {
 		width: 481px;
 		height: 481px;
 	}
 
-	.third-container-temp {
+	.third-container-temp,
+	.fourth-container-temp {
 		text-align: center;
 	}
 
-	.third-section-title {
+	.third-section-title,
+	.fourth-section-title {
 		width: 481px;
 	}
 
-	.third-section-text {
+	.third-section-text,
+	.fourth-section-text {
 		width: 481px;
 	}
 }
@@ -407,20 +422,24 @@ h6 {
 		text-align: center;
 	}
 
-	.third-section-container {
+	.third-section-container,
+	.fourth-section-container {
 		width: 321px;
 	}
 
-	.third-section-image {
+	.third-section-image,
+	.fourth-section-image {
 		width: 321px;
 		height: 321px;
 	}
 
-	.third-section-title {
+	.third-section-title,
+	.fourth-section-title {
 		width: 321px;
 	}
 
-	.third-section-text {
+	.third-section-text,
+	.fourth-section-text {
 		width: 321px;
 	}
 }
