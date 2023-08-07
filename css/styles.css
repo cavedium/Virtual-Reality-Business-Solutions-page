@@ -34,7 +34,7 @@ body {
 	width: 132px;
 }
 
-/* HEADER */
+/* ==========HEADER========== */
 .header-logo {
 	width: 96px;
 	height: 35px;
@@ -79,13 +79,75 @@ body {
 	display: none;
 }
 
-/* HEADER */
+/* ==========HEADER========== */
 
-/* MAIN */
-/* MAIN */
+/* ==========MAIN========== */
 
-/* FOOTER */
-/* FOOTER */
+/* Hero */
+.hero-container {
+	display: flex;
+	align-items: center;
+}
+
+.hero-title {
+	width: 546px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+	font-size: 58px;
+	font-weight: 700;
+	line-height: 84px;
+	letter-spacing: 1.16px;
+	background: linear-gradient(88deg, #2563EB 0%, #D946EF 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin: -70px 0 30px 0;
+}
+
+.hero-text {
+	width: 534px;
+	height: 59px;
+	flex-shrink: 0;
+	color: #E5E7EB;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 30px;
+	opacity: 0.8;
+	margin: 0 0 30px 0;
+}
+
+.hero-w {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+.hero-video {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.hero-video-text {
+	color: #F9FAFB;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.hero-img {
+	margin: -70px 0 0 0;
+}
+
+/* Our Service */
+/* Third Section */
+/* Fourth Section */
+/* Met Our Team */
+/* Subcribe */
+
+/* ==========MAIN========== */
+
+/* ==========FOOTER========== */
+/* ==========FOOTER========== */
 
 
 @media (max-width: 1182px) {
