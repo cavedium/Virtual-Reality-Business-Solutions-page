@@ -318,15 +318,13 @@ h6 {
 
 /* Subcribe */
 .subscribe-wrapper {
-	width: 1182px;
-	height: 295px;
 	flex-shrink: 0;
 	border-radius: 34px;
 	background: var(--bg, linear-gradient(180deg, rgba(254, 254, 255, 0.01) 0%, rgba(255, 255, 255, 0.02) 100%));
 	/* Shadow  */
 	box-shadow: 0px 22px 18px 0px rgba(0, 0, 0, 0.05);
 	margin: 120px 0 100px 0;
-	padding: 50px 0 0 0;
+	padding: 50px 0 55px 0;
 }
 
 .subscribe-title {
@@ -521,6 +519,10 @@ hr {
 		flex-wrap: wrap;
 		justify-content: space-around;
 	}
+
+	.subscribe-form {
+		width: 700px;
+	}
 }
 
 /* TABLET */
@@ -592,6 +594,14 @@ hr {
 	.fourth-section-text {
 		width: 481px;
 	}
+
+	.subscribe-form {
+		width: 450px;
+	}
+
+	.subscribe-input {
+		margin-left: 15px;
+	}
 }
 
 /* MOBILE */
@@ -652,6 +662,25 @@ hr {
 
 	.met-our-team-text {
 		width: 321px;
+	}
+
+	.subscribe-wrapper {
+		height: 500px;
+		padding: 50px 10px 55px 10px;
+	}
+
+	.subscribe-form {
+		width: auto;
+		flex-direction: column;
+		gap: 15px;
+	}
+
+	.subscribe-input {
+		
+	}
+
+	.subscribe-btn {
+
 	}
 }
 
