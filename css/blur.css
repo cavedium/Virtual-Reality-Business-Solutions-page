@@ -329,4 +329,14 @@ body {
 	.hero-blur-2 {
 		left: 500px;
 	}
+
+	.fourth-section-blur-1 {
+		right: 500px;
+
+	}
+	
+	.fourth-section-blur-2 {
+		top: 4600px;
+	}
+
 }
