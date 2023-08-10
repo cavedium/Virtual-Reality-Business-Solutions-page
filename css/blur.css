@@ -1,3 +1,9 @@
+body {
+	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
 /* ==========BLURS========== */
 .hero-blur-1 {
 	width: 361px;
